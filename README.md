@@ -1,99 +1,96 @@
+<h1 align="center">🚀✨ GitFolio: AI-Powered GitHub Portfolio Generator</h1>
 
-# GitFolio: AI-Powered GitHub Portfolio Generator
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&center=true&vCenter=true&width=600&lines=Your+GitHub+Deserves+a+Portfolio!;AI-Powered+%7C+Exportable+Magic!" alt="Typing SVG">
+</p>
 
-GitFolio is a full-stack web application that generates professional portfolios from your GitHub repositories using AI. It analyzes your repositories and automatically creates project summaries, resume bullet points in STAR format, and technical skill tags.
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-React-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Styled%20With-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/AI-Gemini-yellow?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/API-GitHub%20REST%20v3-black?style=for-the-badge&logo=github" />
+</p>
 
-## Features
+<p align="center"><strong>My BEST project yet – Generate a full portfolio from your GitHub profile in seconds, powered by Google Gemini and GitHub API.</strong></p>
 
-- 🔐 **GitHub Authentication**: Connect with your GitHub username and optional personal access token
-- 📦 **Repository Analysis**: Fetch and analyze your GitHub repositories, including stars, forks, languages, and commits
-- 🧠 **AI Enhancement**: Use Google's Gemini API to generate professional content for each repository
-- 📤 **Portfolio Export**: Download your portfolio as a styled HTML file
+---
 
-## Tech Stack
+## 🌟 Why GitFolio?
 
-- **Frontend**: React, Tailwind CSS, shadcn/ui
-- **Data Fetching**: GitHub REST API v3
-- **AI Integration**: Google Gemini API
-- **State Management**: React Context API
+> Because a README isn’t enough.  
+> Let AI create the **perfect developer portfolio** for you – effortlessly.
 
-## Getting Started
+---
 
-### Prerequisites
+## ✨ Features
 
-To use GitFolio, you'll need:
+- 🔐 **Secure GitHub Login** – Just your username or add a PAT for enhanced access.
+- 📊 **Repo Analytics** – Stars, forks, commits, languages... all in one place.
+- 🧠 **Gemini-Powered AI** – Generates summaries, STAR-format resume bullets, and skill tags.
+- 📤 **1-Click Export** – Download your custom portfolio as a **styled HTML file**.
+- 🎯 **Real-Time UI** – Built with React + Tailwind + shadcn for blazing speed and sleek design.
 
-1. A GitHub account
-2. (Optional but recommended) A GitHub Personal Access Token with `public_repo` scope
-   - Create one at https://github.com/settings/tokens
-3. A Google Gemini API Key
-   - Get one at https://aistudio.google.com/app/apikey
+---
 
-### Usage
+## 🧠 Tech Stack
 
-1. Enter your GitHub username
-2. (Optional) Add your GitHub Personal Access Token for higher API rate limits
-3. Add your Gemini API key for AI functionality
-4. Connect to GitHub and fetch your repositories
-5. Use AI to analyze and enhance your repositories
-6. Select which repositories to include in your portfolio
-7. Export your portfolio as an HTML file
+| Area              | Tools Used                             |
+|-------------------|-----------------------------------------|
+| Frontend UI       | React, Tailwind CSS, shadcn/ui         |
+| State Management  | React Context API                      |
+| Data Fetching     | GitHub REST API v3                     |
+| AI Integration    | Google Gemini API                      |
 
-## Environmental Variables
+---
 
-GitFolio doesn't require any environment variables to be set locally. All API keys are entered by the user in the application interface.
+## 🌐 Live Demo
 
-## Security Notes
+<p align="center">
+  <a href="https://gitfoliobyprem.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Launch%20Now-GitFolio-green?style=for-the-badge&logo=netlify" />
+  </a>
+</p>
 
-- GitFolio does not store your GitHub token or Gemini API key on any server
-- All API calls are made directly from your browser
-- Your credentials are only stored in your browser's memory during the session
+<p align="center">
+  <a href="https://gitfoliobyprem.netlify.app/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=700&size=22&pause=1000&color=22C55E&center=true&vCenter=true&width=480&lines=Generate+Your+Portfolio+in+Seconds!;AI-Smart+Summaries+%7C+Downloadable+HTML;Built+by+Prem+Sai+Bollamoni" alt="Live Typing Demo" />
+  </a>
+</p>
 
-## Deployment
+---
 
-This project can be deployed to:
+## 💡 What Makes It Unique?
 
-- **Vercel**: Connect your repository and deploy
-- **Netlify**: Connect your repository or upload the build folder
-- **GitHub Pages**: Run the build command and upload the output
+- No manual writing — AI does the storytelling for you!
+- Modern, minimal, and responsive design.
+- Export your portfolio instantly — no deployment needed.
+- **Built with love and precision by Prem Sai Bollamoni.**
 
-## Development
+---
 
-### Installation
+## 🛠️ Getting Started
 
 ```bash
-# Clone the repository
-git clone <repository-url>
-
-# Navigate to the project directory
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/gitfolio.git
 cd gitfolio
 
-# Install dependencies
+# 2️⃣ Install dependencies
 npm install
 
-# Start the development server
+# 3️⃣ Add your Gemini API key and optional GitHub PAT in .env
+VITE_GITHUB_TOKEN=your_token
+VITE_GEMINI_API_KEY=your_api_key
+
+# 4️⃣ Start the dev server
 npm run dev
 ```
+---
 
-### Project Structure
+🏁 Final Words
 
-```
-src/
-├── components/         # UI components
-├── contexts/           # React context providers
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions for GitHub and AI
-├── pages/              # Application pages
-└── App.tsx             # Main application component
-```
+> GitFolio is not just a portfolio generator – it’s your AI-powered developer identity.
+Perfect for resumes, interviews, freelance, or sharing your coding journey with the world.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- [GitHub API](https://docs.github.com/en/rest)
-- [Google Gemini API](https://ai.google.dev/docs)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
+---
